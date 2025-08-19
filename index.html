@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2> Random Password Generator</h2>
+    <label>Length:
+      <input type="number" class="length" value="12" min="4" max="32">
+    </label>
+    <div>
+      <label>
+        <input type="checkbox" class="letters" checked> Letters
+    </label>
+      <label>
+        <input type="checkbox" class="numbers" checked> Numbers
+    </label>
+      <label>
+        <input type="checkbox" class="symbols" checked> Symbols
+    </label>
+    </div>
+    <button class="generate">Generate</button>
+    <div class="password"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
